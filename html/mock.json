@@ -1,0 +1,8 @@
+{
+  "rooms":[{
+    "roomName":"R1"
+    ,"content":[
+        {"name":"", "message":""}
+      ]}
+  ]
+}

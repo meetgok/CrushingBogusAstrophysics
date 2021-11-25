@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+     <title>OpenUI5 Hello World App</title>
+    <script src = "script.js"></script>
+    <script src= "socket.io/socket.io.js"></script>
+     <script
+             id="sap-ui-bootstrap"
+             src="https://sapui5.hana.ondemand.com/resources/sap-ui-core.js"
+             data-sap-ui-theme="sap_belize"
+             data-sap-ui-libs="sap.m"
+             data-sap-ui-resourceroots='{"CrushingBogusAstrophysics": "./"}'
+             data-sap-ui-onInit="module:CrushingBogusAstrophysics/index"
+             displayBlock="true">
+     </script>
+  </head>
+ <body class="sapUiBody" id="content">
+      <audio id = "Ding" src = "Ding.mp3"> </audio>
+      <div>
+        <p id = "Message0" class = "Message"> - </p>
+        <p id = "Message1" class = "Message"> - </p>
+        <p id = "Message2" class = "Message"> - </p>
+      </div>
+ </body>
+ </html>
